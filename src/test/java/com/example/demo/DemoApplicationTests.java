@@ -49,8 +49,11 @@ public class DemoApplicationTests {
 								Region.US_Standard.getFirstRegionId()
 						)).withPathStyleAccessEnabled(true).build();
 
-		httpAmazonS3.createBucket("ana-bucket");
-		httpAmazonS3.putObject("ana-bucket", "ome/ana/DemoApplication.java", new File("A:\\demo\\demo\\src\\main\\java\\com\\example\\demo\\DemoApplication.java"));
+		httpAmazonS3.createBucket("ana-buc" +
+                "" +
+                "" +
+                "ket");
+		httpAmazonS3.putObject("ana-ghfhdhdgbucket", "ome/ana/DemoApplication.java", new File("A:\\demo\\demo\\src\\main\\java\\com\\example\\demo\\DemoApplication.java"));
 
 
 	}
