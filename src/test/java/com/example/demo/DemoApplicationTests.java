@@ -50,7 +50,7 @@ public class DemoApplicationTests {
 						)).withPathStyleAccessEnabled(true).build();
 
 		httpAmazonS3.createBucket("ana-bucket");
-		httpAmazonS3.putObject("ana-bucket", "ome/ana/DemoApplication.java", new File("A:\\demo\\demo\\src\\main\\java\\com\\example\\demo\\DemoApplication.java"));
+		httpAmazonS3.putObject("ana-bucket!", "ome/ana/DemoApplication.java", new File("A:\\demo\\demo\\src\\main\\java\\com\\example\\demo\\DemoApplication.java"));
 
 
 	}
